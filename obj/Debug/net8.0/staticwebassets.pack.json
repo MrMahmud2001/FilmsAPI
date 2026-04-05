@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\TOP.html",
+      "PackagePath": "staticwebassets\\TOP.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\acter_Leo.html",
+      "PackagePath": "staticwebassets\\acter_Leo.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\acters.html",
+      "PackagePath": "staticwebassets\\acters.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\Top_style.css",
+      "PackagePath": "staticwebassets\\css\\Top_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\entrance_style.css",
+      "PackagePath": "staticwebassets\\css\\entrance_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\error.css",
+      "PackagePath": "staticwebassets\\css\\error.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\films_style.css",
+      "PackagePath": "staticwebassets\\css\\films_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\media_profile_style.css",
+      "PackagePath": "staticwebassets\\css\\media_profile_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\media_style.css",
+      "PackagePath": "staticwebassets\\css\\media_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\movie_add_style.css",
+      "PackagePath": "staticwebassets\\css\\movie_add_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\person_profile_style.css",
+      "PackagePath": "staticwebassets\\css\\person_profile_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\persons_style.css",
+      "PackagePath": "staticwebassets\\css\\persons_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\serials_style.css",
+      "PackagePath": "staticwebassets\\css\\serials_style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\director_Nolan.html",
+      "PackagePath": "staticwebassets\\director_Nolan.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\directors.html",
+      "PackagePath": "staticwebassets\\directors.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\film_One_Home.html",
+      "PackagePath": "staticwebassets\\film_One_Home.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\film_db.sql",
+      "PackagePath": "staticwebassets\\film_db.sql"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\films.html",
+      "PackagePath": "staticwebassets\\films.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\films_Nolan.html",
+      "PackagePath": "staticwebassets\\films_Nolan.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\fims_form.html",
+      "PackagePath": "staticwebassets\\fims_form.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Beauty.jpg",
+      "PackagePath": "staticwebassets\\img\\Beauty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Brad_acter.jpg",
+      "PackagePath": "staticwebassets\\img\\Brad_acter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Damien_director.jpg",
+      "PackagePath": "staticwebassets\\img\\Damien_director.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Dmitry_acter.jpg",
+      "PackagePath": "staticwebassets\\img\\Dmitry_acter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Leo_acter.jpg",
+      "PackagePath": "staticwebassets\\img\\Leo_acter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Masha.jpg",
+      "PackagePath": "staticwebassets\\img\\Masha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Moscow.jpg",
+      "PackagePath": "staticwebassets\\img\\Moscow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Nikita_director.jpg",
+      "PackagePath": "staticwebassets\\img\\Nikita_director.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Nolan_director.jpg",
+      "PackagePath": "staticwebassets\\img\\Nolan_director.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Oppenheimer.jpg",
+      "PackagePath": "staticwebassets\\img\\Oppenheimer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\Schindler.jpg",
+      "PackagePath": "staticwebassets\\img\\Schindler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\breaking.jpg",
+      "PackagePath": "staticwebassets\\img\\breaking.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\cars.jpg",
+      "PackagePath": "staticwebassets\\img\\cars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\dance.jpg",
+      "PackagePath": "staticwebassets\\img\\dance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\first_love.jpg",
+      "PackagePath": "staticwebassets\\img\\first_love.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\game_thrones.jpg",
+      "PackagePath": "staticwebassets\\img\\game_thrones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\github-icon.svg",
+      "PackagePath": "staticwebassets\\img\\github-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\godfather.jpg",
+      "PackagePath": "staticwebassets\\img\\godfather.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\green.jpg",
+      "PackagePath": "staticwebassets\\img\\green.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\hanter.jpg",
+      "PackagePath": "staticwebassets\\img\\hanter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\horse.jpg",
+      "PackagePath": "staticwebassets\\img\\horse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\icon.png",
+      "PackagePath": "staticwebassets\\img\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\inception.jpg",
+      "PackagePath": "staticwebassets\\img\\inception.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\kitchen.jpg",
+      "PackagePath": "staticwebassets\\img\\kitchen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\mega.jpg",
+      "PackagePath": "staticwebassets\\img\\mega.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\memento.jpg",
+      "PackagePath": "staticwebassets\\img\\memento.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\mine.jpg",
+      "PackagePath": "staticwebassets\\img\\mine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\myself.jpg",
+      "PackagePath": "staticwebassets\\img\\myself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\one_home.jpg",
+      "PackagePath": "staticwebassets\\img\\one_home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\one_home_slide1.jpg",
+      "PackagePath": "staticwebassets\\img\\one_home_slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\one_home_slide2.jpg",
+      "PackagePath": "staticwebassets\\img\\one_home_slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\one_home_slide3.jpg",
+      "PackagePath": "staticwebassets\\img\\one_home_slide3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\one_home_slide4.jpg",
+      "PackagePath": "staticwebassets\\img\\one_home_slide4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\one_plus.jpg",
+      "PackagePath": "staticwebassets\\img\\one_plus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_Avgust.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_Avgust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_Doroga.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_Doroga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_KRD.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_KRD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_Leo.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_Leo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_andor.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_andor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_dad.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_dad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_mir.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_mir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\poster_rasdel.jpg",
+      "PackagePath": "staticwebassets\\img\\poster_rasdel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\posters\\387df656-0e41-4009-a492-dfd5df848710.jpg",
+      "PackagePath": "staticwebassets\\img\\posters\\387df656-0e41-4009-a492-dfd5df848710.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\posters\\cars.jpg",
+      "PackagePath": "staticwebassets\\img\\posters\\cars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\quiet_place.jpg",
+      "PackagePath": "staticwebassets\\img\\quiet_place.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\sing.jpg",
+      "PackagePath": "staticwebassets\\img\\sing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\smeshariks.jpg",
+      "PackagePath": "staticwebassets\\img\\smeshariks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\telegram.svg",
+      "PackagePath": "staticwebassets\\img\\telegram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\tenet.jpg",
+      "PackagePath": "staticwebassets\\img\\tenet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\university.jpg",
+      "PackagePath": "staticwebassets\\img\\university.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\velikolep.jpg",
+      "PackagePath": "staticwebassets\\img\\velikolep.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\img\\vk.svg",
+      "PackagePath": "staticwebassets\\img\\vk.svg"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\ajax.js",
+      "PackagePath": "staticwebassets\\js\\ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\condition_script.js",
+      "PackagePath": "staticwebassets\\js\\condition_script.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\film_form.js",
+      "PackagePath": "staticwebassets\\js\\film_form.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\modal_poster_script.js",
+      "PackagePath": "staticwebassets\\js\\modal_poster_script.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\scroll_up_script.js",
+      "PackagePath": "staticwebassets\\js\\scroll_up_script.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\sites.js",
+      "PackagePath": "staticwebassets\\js\\sites.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\js\\slider_script.js",
+      "PackagePath": "staticwebassets\\js\\slider_script.js"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\serials.html",
+      "PackagePath": "staticwebassets\\serials.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\serials_Game_Throne.html",
+      "PackagePath": "staticwebassets\\serials_Game_Throne.html"
+    },
+    {
+      "Id": "C:\\Users\\Михаил\\OneDrive\\Рабочий стол\\ЛР ТСИ\\ЛР3\\wwwroot\\sign.html",
+      "PackagePath": "staticwebassets\\sign.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FilmsAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FilmsAPI.props",
+      "PackagePath": "build\\FilmsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FilmsAPI.props",
+      "PackagePath": "buildMultiTargeting\\FilmsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FilmsAPI.props",
+      "PackagePath": "buildTransitive\\FilmsAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

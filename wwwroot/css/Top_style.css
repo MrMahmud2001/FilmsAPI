@@ -1,0 +1,107 @@
+.Top_layout {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.menu_Top {
+    flex: 0 0 300px;
+}
+
+.menu_Top_content {
+    position: fixed;
+    top: 68.4px;
+    left: 0;
+    width: 300px;
+    height: calc(100vh - 68.4px);
+    background-color: #2d2d3a;
+    padding: 16px;
+    overflow-y: auto;
+    z-index: 1000;
+    color: white;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu_Top_heading {
+    margin: 0;
+    padding: 8px 16px;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.menu_Top_link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.menu_Top_link:first-child {
+    margin-top: 20px;
+}
+
+.menu_Top_link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f44336;
+}
+.Top_card {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e24;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto; 
+}
+
+.Top_rank {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f44336;
+  min-width: 32px;
+  text-align: center;
+}
+
+.Top_poster {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+  flex-shrink: 0; /* Чтобы постер не сжимался */
+}
+
+.Top_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  flex-grow: 1; /* Занимает всё доступное пространство между постером и рейтингом */
+}
+
+.Top_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.Top_year {
+  font-size: 14px;
+  color: #aaa;
+  margin: 0;
+}
+
+.Top_rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffd700;
+  margin: 0;
+  white-space: nowrap; /* Не даём рейтингу переноситься */
+}

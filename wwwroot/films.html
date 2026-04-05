@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Иди и смотри: Фильмы</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/films_style.css"/>
+	</head>
+	<body>
+		<header class="menu">
+			<div class="container">
+				<div class="menu_content">
+					<a href="index.html" class="menu_icon"><img src="img/icon.png" alt="Иконка сайта"></a>
+					<nav class="menu_bar">
+						<a href="films.html" class="menu_link">Фильмы</a>
+						<a href="serials.html" class="menu_link">Сериалы</a>
+						<a href="TOP.html" class="menu_link">ТОП250</a>
+						<a href="acters.html" class="menu_link">Актеры и режиссеры</a>
+						<a href="#" class="menu_link">Мой список</a>
+						<a href="sign.html" class="menu_link_client">Войти в аккаунт</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<h1>Фильмы</h1>
+			<form class="search_form">
+				<input type="text" class="search_input" placeholder="Поиск фильмов">
+				<button type="submit" class="search_button">Найти</button>
+			</form>
+			<div class="films_layout">
+				<section class="menu_films">
+					<div class="container">
+						<div class="menu_films_content">
+							<p class="menu_films_heading">Фильтры</p>
+							<div class="menu_films_genres">
+								<p class="menu_films_genres_heading">ЖАНРЫ:</p>
+								<a href="#" class="genre-link">Комедия</a>
+								<a href="#" class="genre-link">Драма</a>
+								<a href="#" class="genre-link">Хоррор</a>
+								<a href="#" class="genre-link">Боевик</a>
+								<a href="#" class="genre-link">Романтика</a>
+								<a href="#" class="genre-link">Фантастика</a>
+							</div>
+							<div class="menu_films_filter-group">
+								<p class="menu_films_genres_heading">ГОД:</p>
+								<div class="year-range">
+									<input type="number" id="yearFrom" class="filter-input-small" placeholder="От" min="1900" max="2026">
+									<span>—</span>
+									<input type="number" id="yearTo" class="filter-input-small" placeholder="До" min="1900" max="2026">
+								</div>
+							</div>
+							<div class="menu_films_filter-group">
+								<p class="menu_films_genres_heading">МИН. РЕЙТИНГ:</p>
+								<div class="slider-container">
+									<input type="range" id="ratingSlider" class="custom-range" min="0" max="10" step="0.1" value="0">
+									<span id="ratingValue" class="slider-value">0.0+</span>
+								</div>
+								<div class="slider-labels">
+									<span>0</span>
+									<span>5</span>
+									<span>10</span>
+								</div>
+							</div>
+							<div class="menu_films_filter-group">
+								<p class="menu_films_genres_heading">СТРАНА:</p>
+								<select id="countryFilter" class="filter-select">
+									<option value="">Любая</option>
+									<option value="usa">США</option>
+									<option value="ru">Россия</option>
+									<option value="uk">Великобритания</option>
+									<option value="fr">Франция</option>
+									<option value="kr">Южная Корея</option>
+								</select>
+							</div>
+							<div class="menu_films_filter-group">
+								<p class="menu_films_genres_heading">ДЛИТЕЛЬНОСТЬ:</p>
+								<select id="durationFilter" class="filter-select">
+									<option value="">Любая</option>
+									<option value="short">Короткий (&lt; 90 мин)</option>
+									<option value="medium">Средний (90–120 мин)</option>
+									<option value="long">Длинный (&gt; 120 мин)</option>
+								</select>
+							</div>
+							<div class="menu_films_filter-group">
+								<p class="menu_films_genres_heading">СОРТИРОВКА:</p>
+								<select id="sortFilter" class="filter-select">
+									<option value="rating_desc">По убыванию рейтинга</option>
+									<option value="year_desc">Сначала новые</option>
+									<option value="year_asc">Сначала старые</option>
+									<option value="title_asc">По алфавиту (А-Я)</option>
+								</select>
+							</div>
+							<div class="menu_films_actions">
+								<button type="button" id="applyFilters" class="menu_films_button">Применить</button>
+								<button type="button" id="resetFilters" class="menu_films_button_reset">Сбросить</button>
+							</div>
+							<div class="menu_films_quick-links">
+								<a href="#" class="menu_films_link">🔥 НОВИНКИ</a>
+								<a href="#" class="menu_films_link">🎬 ТРЕЙЛЕРЫ</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="films">
+					<div class="container">
+						<div class="films_content">
+						</div>
+						<button id="loadMoreBtn" class="menu_films_button" style="display:none;margin:30px auto;padding:12px 30px;">Загрузить ещё</button>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer_menu">
+			<div class="container">
+				<ul class="footer_menu_social">
+				<li>
+					<a href="https://vk.com/mihail_dyrnoi  " class="footer_menu_social_button"><img src="img/vk.svg" alt="VK"></a>
+				</li>
+				<li>
+					<a href="https://t.me/+79172600621  " class="footer_menu_social_button"><img src="img/telegram.svg" alt="Telegram"></a>
+				</li>
+				<li>
+					<a href="https://github.com/MrMahmud2001  " class="footer_menu_social_button"><img src="img/github-icon.svg" alt="Git"></a>
+				</li>	
+				</ul>
+			</div>
+		</footer>
+		<button id="scrollToTopBtn" title="Вернуться наверх"></button>
+		<script src="js/scroll_up_script.js"></script>
+		<script src="js/ajax.js"></script>
+		<script>
+			const slider = document.getElementById('ratingSlider');
+			const output = document.getElementById('ratingValue');
+			function updateSliderValue() {
+				output.textContent = parseFloat(slider.value).toFixed(1) + '+';
+			}
+			slider.addEventListener('input', updateSliderValue);
+			updateSliderValue();
+		</script>
+	</body>
+</html>

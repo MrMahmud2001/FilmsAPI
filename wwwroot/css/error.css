@@ -1,0 +1,17 @@
+.input-hint {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 2px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 2px;
+    min-height: 20px; 
+}
+
+.error-field {
+    border-color: red;
+    background-color: #fff0f0;
+}

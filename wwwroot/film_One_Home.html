@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<title>Иди и смотри: Один дома</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/media_profile_style.css"/>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header class = "menu">
+			<div class = "container">
+				<div class = "menu_content">
+				<a href="index.html" class="menu_icon"><img src="img/icon.png" alt="Иконка сайта"></a>
+					<nav class = "menu_bar">
+						<a href = "films.html" class = "menu_link">Фильмы</a>
+						<a href = "serials.html" class = "menu_link">Сериалы</a>
+						<a href = "TOP.html" class = "menu_link">ТОП250</a>
+						<a href = "acters.html" class = "menu_link">Актеры и режиссеры</a>
+						<a href = "#" class = "menu_link">Мой список</a>
+						<a href = "sign.html" class = "menu_link_client">Войти в аккаунт</a>
+					</nav>
+					<div class="theme_toggle">
+						<button id="theme_toggle_btn" class="theme_toggle_btn">
+							<span class="theme_icon">🌙</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="media_profile">
+				<h1 class="media_profile_title">Один дома</h1>
+
+				<div class="media_profile_header">
+					<img src="img/one_home.jpg" alt="Один дома" class="media_profile_poster" id="poster_image">
+					<div id="poster_modal" class="modal">
+						<img class="modal_content" id="modal_poster">
+					</div>
+
+					<div class="media_profile_info">
+						<table class="media_profile_stats">
+							<tr><td>Год</td><td>1990</td></tr>
+							<tr><td>Страна</td><td>США</td></tr>
+							<tr><td>Жанр</td><td>Комедия, семейный</td></tr>
+							<tr><td>Режиссёр</td><td>Крис Коламбус</td></tr>
+							<tr><td>Продолжительность</td><td>103 мин</td></tr>
+							<tr>
+								<td>Рейтинг</td>
+								<td>
+									<span class="media_profile_rating">7.7</span>
+									<div class="media_profile_rating_actions">
+										<label class="media_profile_rating_label">Ваша оценка:</label>
+										<div class="media_profile_rating_input_wrapper">
+											<input type="number" min="1" max="10" placeholder="1–10" class="media_profile_rating_input">
+											<button class="btn btn_small">Оценить</button>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+
+						<div class="media_profile_actions">
+							<button class="btn btn_plan">В планах</button>
+							<button class="btn btn_favorite">Избранное</button>
+						</div>
+					</div>
+				</div>
+				<div class="slider_container">
+					<div class="slider">
+						<div class="slide"><img src="img/one_home_slide1.jpg" alt="Кадр из фильма"></div>
+						<div class="slide"><img src="img/one_home_slide2.jpg" alt="Кадр из фильма"></div>
+						<div class="slide"><img src="img/one_home_slide3.jpg" alt="Кадр из фильма"></div>
+						<div class="slide"><img src="img/one_home_slide4.jpg" alt="Кадр из фильма"></div>
+					</div>
+					<button class="slider_btn prev">‹</button>
+					<button class="slider_btn next">›</button>
+				</div>
+
+				<div class="media_profile_content_layout">
+					<div class="media_profile_description">
+						<h2>Описание фильма</h2>
+						<p>
+							Восьмилетний Кевин МакКаллистер случайно остаётся дома один, когда его огромная семья улетает на Рождество в Париж. 
+							Сначала он наслаждается свободой, но вскоре понимает, что в его доме пытаются ограбить два неуклюжих вора — 
+							Гарри и Марв. Теперь Кевину предстоит защитить свой дом с помощью изобретательных ловушек и острого ума.
+						</p>
+					</div>
+
+					<div class="media_profile_cast_list">
+						<h2>В главных ролях</h2>
+						<ul class="media_profile_cast_links">
+							<li><a href="#" class="media_profile_cast_link">Маколей Калкин</a></li>
+							<li><a href="#" class="media_profile_cast_link">Джо Пеши</a></li>
+							<li><a href="#" class="media_profile_cast_link">Дэниел Стерн</a></li>
+							<li><a href="#" class="media_profile_cast_link">Кэтрин О’Хара</a></li>
+							<li><a href="#" class="media_profile_cast_link">Джон Хёрд</a></li>
+							<li><a href="#" class="media_profile_cast_link">Робертс Блоссом</a></li>
+							<li><a href="#" class="media_profile_cast_link">Джерри Бэммен</a></li>
+							<li><a href="#" class="media_profile_cast_link">Девин Рэтрей</a></li>
+							<li><a href="#" class="media_profile_cast_link">Джон Кэнди</a></li>
+							<li><a href="#" class="media_profile_cast_link">Киран Калкин</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class = "footer_menu">
+			<div class = "container">
+				<ul class="footer_menu_social">
+				<li>
+					<a href="https://vk.com/mihail_dyrnoi" class="footer_menu_social_button"><img src="img/vk.svg" alt="VK"></a>
+				</li>
+				<li>
+					<a href="https://t.me/+79172600621" class="footer_menu_social_button"><img src="img/telegram.svg" alt="Telegram"></a>
+				</li>
+				<li>
+					<a href="https://github.com/MrMahmud2001" class="footer_menu_social_button"><img src="img/github-icon.svg" alt="Git"></a>
+				</li>	
+				</ul>
+			</div>
+		</footer>
+		<button id="scrollToTopBtn" title="Вернуться наверх"></button>
+		<script src="js/scroll_up_script.js"></script>
+		<script src="js/slider_script.js"></script>
+		<script src="js/modal_poster_script.js"></script>
+		<script src="js/condition_script.js"></script>
+	</body>
+</html>

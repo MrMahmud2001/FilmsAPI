@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title>Иди и смотри: Добавить фильм</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/movie_add_style.css"/>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header class="menu">
+			<div class="container">
+				<div class="menu_content">
+					<a href="index.html" class="menu_icon"><img src="img/icon.png" alt="Иконка сайта"></a>
+					<nav class="menu_bar">
+						<a href="films.html" class="menu_link">Фильмы</a>
+						<a href="serials.html" class="menu_link">Сериалы</a>
+						<a href="TOP.html" class="menu_link">ТОП250</a>
+						<a href="acters.html" class="menu_link">Актеры и режиссеры</a>
+						<a href="#" class="menu_link">Мой список</a>
+						<a href="sign.html" class="menu_link_client">Войти в аккаунт</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<h1>Добавление фильма</h1>
+			<section class="movie-add-section">
+				<div class="container">
+					<div class="movie-add-card">
+						<form id="addMovieForm" class="movie-add-form" enctype="multipart/form-data" novalidate>
+
+						
+							<label class="movie-form-label" for="movieTitle">Название фильма <span class="required">*</span></label>
+							<input type="text" id="movieTitle" class="movie-form-input"
+								   placeholder="Введите русское название" maxlength="200">
+							<div class="input-hint">Русское или оригинальное название, до 200 символов</div>
+							<div id="movieTitleError" class="error-message"></div>
+
+							
+							<label class="movie-form-label" for="movieOriginalTitle">Оригинальное название</label>
+							<input type="text" id="movieOriginalTitle" class="movie-form-input"
+								   placeholder="Например: The Godfather" maxlength="200">
+							<div class="input-hint">На языке оригинала (необязательно)</div>
+							<div id="movieOriginalTitleError" class="error-message"></div>
+
+						
+							<label class="movie-form-label" for="movieGenre">Жанр <span class="required">*</span></label>
+							<input type="text" id="movieGenre" class="movie-form-input"
+								   placeholder="Например: Драма, Криминал" list="genreList">
+							<datalist id="genreList">
+								<option value="Комедия">
+								<option value="Драма">
+								<option value="Хоррор">
+								<option value="Боевик">
+								<option value="Романтика">
+								<option value="Фантастика">
+								<option value="Аниме">
+								<option value="Криминал">
+								<option value="Биография">
+								<option value="Вестерн">
+							</datalist>
+							<div class="input-hint">Выберите из списка или введите несколько через запятую</div>
+							<div id="movieGenreError" class="error-message"></div>
+
+						
+							<label class="movie-form-label" for="movieYear">Год выпуска <span class="required">*</span></label>
+							<input type="number" id="movieYear" class="movie-form-input"
+								   placeholder="2024" min="1900" max="2099">
+							<div class="input-hint">Год от 1900 до 2099</div>
+							<div id="movieYearError" class="error-message"></div>
+
+						
+							<label class="movie-form-label" for="movieCountry">Страна производства <span class="required">*</span></label>
+							<select id="movieCountry" class="movie-form-input movie-form-select">
+								<option value="">— Выберите страну —</option>
+								<option value="usa">США</option>
+								<option value="ru">Россия</option>
+								<option value="uk">Великобритания</option>
+								<option value="fr">Франция</option>
+								<option value="kr">Южная Корея</option>
+								<option value="jp">Япония</option>
+								<option value="it">Италия</option>
+							</select>
+							<div class="input-hint">Страна основного производства</div>
+							<div id="movieCountryError" class="error-message"></div>
+
+						
+							<label class="movie-form-label" for="movieDirector">Режиссёр <span class="required">*</span></label>
+							<input type="text" id="movieDirector" class="movie-form-input"
+								   placeholder="Фамилия Имя" maxlength="150">
+							<div class="input-hint">Только буквы, пробелы и дефисы</div>
+							<div id="movieDirectorError" class="error-message"></div>
+
+							
+							<label class="movie-form-label" for="movieRating">Рейтинг</label>
+							<input type="number" id="movieRating" class="movie-form-input"
+								   placeholder="7.5" min="0" max="10" step="any">
+							<div class="input-hint">От 0 до 10, дробь через точку (необязательно)</div>
+							<div id="movieRatingError" class="error-message"></div>
+
+							
+							<label class="movie-form-label" for="movieDuration">Длительность (мин) <span class="required">*</span></label>
+							<input type="number" id="movieDuration" class="movie-form-input"
+								   placeholder="120" min="1" max="900" required>
+							<div class="input-hint">От 1 до 900 минут (требование базы данных)</div>
+							<div id="movieDurationError" class="error-message"></div>
+
+							
+							<label class="movie-form-label" for="movieDescription">Описание <span class="required">*</span></label>
+							<textarea id="movieDescription" class="movie-form-input movie-form-textarea"
+									  placeholder="Краткий сюжет фильма..." maxlength="1000"></textarea>
+							<div class="input-hint">
+								Не менее 20 символов.
+								<span id="charCount" style="font-weight:600;">0 / 1000</span>
+							</div>
+							<div id="movieDescriptionError" class="error-message"></div>
+
+							
+							<label class="movie-form-label" for="moviePosterFile">Постер <span class="required">*</span></label>
+							<input type="file" id="moviePosterFile" class="movie-form-input movie-form-file"
+								   accept="image/png, image/jpeg, image/jpg">
+							<div class="input-hint">Форматы: JPG, PNG. Максимальный размер — 5 МБ</div>
+							<div id="moviePosterFileError" class="error-message"></div>
+							<img id="posterPreview" src="" alt="Предпросмотр постера"
+								 style="display:none; max-width:200px; max-height:280px; border-radius:8px; margin:10px 0; object-fit:cover;">
+
+							
+							<button type="submit" class="movie-form-button">Опубликовать фильм</button>
+
+							<p class="form-required-note">
+								<span class="required">*</span> Поля, отмеченные звёздочкой, обязательны для заполнения.
+							</p>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer_menu">
+			<div class="container">
+				<ul class="footer_menu_social">
+					<li><a href="https://vk.com/mihail_dyrnoi" class="footer_menu_social_button"><img src="img/vk.svg" alt="VK"></a></li>
+					<li><a href="https://t.me/+79172600621" class="footer_menu_social_button"><img src="img/telegram.svg" alt="Telegram"></a></li>
+					<li><a href="https://github.com/MrMahmud2001" class="footer_menu_social_button"><img src="img/github-icon.svg" alt="Git"></a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="js/film_form.js"></script>
+	</body>
+</html>

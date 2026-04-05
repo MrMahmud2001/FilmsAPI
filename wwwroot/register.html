@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Иди и смотри: Регистрация</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/entrance_style.css"/>
+		<link rel="stylesheet" href="css/error.css"/>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<main>
+			<h1>Регистрация</h1>
+			<section class = "entrance">
+				<div class="container">
+					<div class="entrance_content">
+						<form id="registrationForm" class="entrance_form">
+							<p class="entrance_form_heading">Фамилия*:</p>
+							<input type="text" id="lastName" class="entrance_form_input" placeholder="Введите фамилию">
+							<div class="input-hint">Только буквы, не менее 2 символо</div>
+							<div id="lastNameError" class="error-message"></div>
+
+							<p class="entrance_form_heading">Имя*:</p>
+							<input type="text" id="firstName" class="entrance_form_input" placeholder="Введите имя">
+							<div class="input-hint">Только буквы, не менее 2 символов</div>
+							<div id="firstNameError" class="error-message"></div>
+
+							<p class="entrance_form_heading">Отчество:</p>
+							<input type="text" id="middleName" class="entrance_form_input" placeholder="Введите отчество">
+							<div class="input-hint">Только буквы, не менее 2 символов (опционально)</div>
+							<div id="middleNameError" class="error-message"></div>
+
+							<p class="entrance_form_heading">Почта*:</p>
+							<input type="email" id="email" class="entrance_form_input" placeholder="Введите mail">
+							<div class="input-hint">Действительный email адрес</div>
+							<div id="emailError" class="error-message"></div>
+
+							<p class="entrance_form_heading">Логин*:</p>
+							<input type="text" id="username" class="entrance_form_input" placeholder="Придумайте логин">
+							<div class="input-hint">Только латинские буквы, цифры и подчеркивание, 3-20 символов</div>
+							<div id="usernameError" class="error-message"></div>
+
+							<p class="entrance_form_heading">Пароль*:</p>
+							<input type="password" id="password" class="entrance_form_input" placeholder="Придумайте пароль">
+							<div class="input-hint">Минимум 6 символов, хотя бы одна цифра и одна буква</div>
+							<div id="passwordError" class="error-message"></div>
+
+							<p class="entrance_form_heading">Повторный пароль*:</p>
+							<input type="password" id="confirmPassword" class="entrance_form_input" placeholder="Повторите пароль">
+							<div class="input-hint">Должен совпадать с паролем</div>
+							<div id="confirmPasswordError" class="error-message"></div>
+
+							<button type="submit" class="entrance_form_button">Создать аккаунт</button>
+							
+							<p style="font-size: 0.8em; color: #666; margin-top: 15px; text-align: center;">
+								<span style="color: red;">*</span> Поля, отмеченные звездочкой, обязательны для заполнения.
+							</p>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="js/sites.js"></script>
+	</body>
+</html>
