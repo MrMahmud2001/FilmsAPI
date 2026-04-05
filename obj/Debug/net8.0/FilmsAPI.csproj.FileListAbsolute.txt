@@ -97,3 +97,4 @@ C:\Users\Михаил\OneDrive\Рабочий стол\ЛР ТСИ\ЛР3\obj\Deb
 C:\Users\Михаил\OneDrive\Рабочий стол\ЛР ТСИ\ЛР3\obj\Debug\net8.0\FilmsAPI.pdb
 C:\Users\Михаил\OneDrive\Рабочий стол\ЛР ТСИ\ЛР3\obj\Debug\net8.0\FilmsAPI.genruntimeconfig.cache
 C:\Users\Михаил\OneDrive\Рабочий стол\ЛР ТСИ\ЛР3\obj\Debug\net8.0\ref\FilmsAPI.dll
+C:\Users\Михаил\OneDrive\Рабочий стол\ЛР ТСИ\ЛР3\obj\Debug\net8.0\FilmsAPI.sourcelink.json
